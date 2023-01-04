@@ -1,0 +1,127 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+     width: 60%;
+     height: 100vh;
+}
+section{
+    background-color: rgb(233, 239, 239);
+    height: 25vh;
+    text-align: center;
+    position: relative;
+}
+hr{
+    color: rgb(15, 15, 16);
+    width: 80%;
+    position: absolute;
+    bottom: 3vh;
+    left: 10%;
+}
+.sec{
+    position: absolute;
+    border: 1px solid red;
+    left: 25%;
+    height: 50%;
+    top: 2vh;
+    width: 50%;
+}
+.jumbotron{
+   margin-top: -4vh;
+    
+}
+.size{
+    border: 1px solid grey;
+    width: 50%;
+    height: 13vh;
+    margin-top: 12vh;
+}
+.visibl{
+    border: 1px solid grey;
+    width: 50%;
+    height: 13vh;
+    margin-top: 2vh;
+}
+p{
+    background-color: rgb(233, 239, 239);
+    margin-top: 0;
+    font-size: large;
+    
+}
+.change{
+    margin-left: 28%;
+    margin-top: -2vh;
+}
+.in{
+    margin-left: 35%;
+    margin-top: -2vh;
+}
+.hereket{
+    margin-left: 33%;
+    margin-top: 5vh;
+}
+.move{
+    border: 1px solid grey;
+    width: 50%;
+    height: 20vh;
+    margin-top: 2vh;
+    
+}
+.normal{
+    background-color: white;
+    border: 1px solid grey;
+    padding: 8px;
+    border-radius: 10%;
+}
+.grow{
+    background-color: rgb(13, 13, 79);
+    color: white;
+    padding: 8px;
+    border-radius: 10%;
+    border: 1px solid grey;
+}
+.shrink{
+    background-color: rgb(240, 20, 20);
+    color: white;
+    padding: 8px;
+    border-radius: 10%;
+    border: 1px solid grey;
+}
+.sol, .sag, .yuxari, .asagi{
+    height: 5vh;
+    width: 10%;
+    background-color: white;
+    border: 1px solid grey;
+    margin-top: -2vh;
+    margin-right: 2%;
+}
+.planet{
+    margin-left: 35%;
+    margin-top: 1vh;
+    background-color: white;
+    border: 1px solid grey;
+    padding: 8px;
+    border-radius: 10%;
+}
+.vis{
+    background-color: white;
+    border: 1px solid grey;
+    padding: 8px;
+    border-radius: 10%;
+    
+}
+.invis{
+    background-color: rgb(67, 67, 186);
+    border: 1px solid grey;
+    color: white;
+    padding: 8px;
+    border-radius: 10%;
+    margin-right: 4%;
+}
+.image{
+    margin-left: 35%;
+    bottom: 8vh;
+    position: absolute;
+}
